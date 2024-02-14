@@ -2896,10 +2896,10 @@ end
     M:AddParagraph("Redeem Code","Click to Button to Reddem All Code In Blox Fruits.")
 
     local x2Code = {
-        "JULYUPDATE_RESET",
-        "staffbattle",
-        "Sub2CaptainMaui",
-        "SUB2GAMERROBOT_RESET1",
+        "Enyu_is_pro",
+        "Magicbus",
+        "NOOB_REFUND",
+        "KITT_RESET" ,
         "KittGaming",
         "Sub2Fer999",
         "Enyu_is_Pro",
@@ -3011,7 +3011,7 @@ spawn(function()
 end)
 
 M:AddToggle({
-    Name = "nhặt lửa",
+    Name = "nhặt lửa chùa",
     Default = false,
     Flag = "AutoAzureAmber",
     Save = true,
@@ -3035,7 +3035,7 @@ end)
 
 
 M:AddToggle({
-    Name = "định vị đảo kitsune",
+    Name = "định vị đảo kid lỏ",
     Default = false,
     Flag = "EspKitsune",
     Save = true,
@@ -3744,7 +3744,7 @@ local EliteProgress = M:AddLabel("")
 
 
     M:AddToggle({
-        Name = "Đánh Nhà Máy",
+        Name = "Đánh Nhà Mày",
         Default = false,
         Flag = "Tự động Factory",
         Save = true,
@@ -3755,7 +3755,7 @@ local EliteProgress = M:AddLabel("")
     })
 
         M:AddToggle({
-            Name = "Đánh hải Tặc",
+            Name = "Đánh hải cặc",
             Default = false,
             Flag = "Tự động Castle",
             Save = true,
@@ -4245,7 +4245,7 @@ IQ:AddToggle({
 })
 
 IQ:AddToggle({
-    Name = "Tự động Buy Legend Sword",
+    Name = "Tự động Buy kiếm zoro",
     Default = false,
     Flag = "Tự động Legend",
     Save = true,
@@ -4704,7 +4704,7 @@ S:AddToggle({
 })
 
 S:AddToggle({
-    Name = "Súng",
+    Name = "mua ku",
     Default = false,
     Flag = "Tự động Gun",
     Save = true,
@@ -4744,7 +4744,7 @@ local Section = E:AddSection({
 })
 
 E:AddToggle({
-    Name = "ESP Ng Chơi",
+    Name = "ESP mấy thg đần",
     Default = false,
     Flag = "ESP Players",
     Save = true,
@@ -4800,7 +4800,7 @@ function UpdatePlayerChams()
 end
 
 E:AddToggle({
-    Name = "ESP Trái Ác Quỷ",
+    Name = "ESP Trái",
     Default = false,
     Flag = "ESP Fruits",
     Save = true,
