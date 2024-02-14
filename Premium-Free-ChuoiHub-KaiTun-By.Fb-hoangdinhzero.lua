@@ -2548,7 +2548,7 @@ local SV = Window:MakeTab({
 })
 
 local D = Window:MakeTab({
-    Name = "Trái Ác quỷ",
+    Name = "Trái",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2560,7 +2560,7 @@ local R = Window:MakeTab({
 })
 
 local SH = Window:MakeTab({
-    Name = "cửa hàng",
+    Name = "cửa hàng sex",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -2719,7 +2719,7 @@ local locallv = W:AddLabel("Level")
     local     DarkDagger =           W:AddLabel("❌ : Dark Dagger")
     local     Tushita          W:AddLabel("❌ : Tushita")
     local Section = W:AddSection({
-        Name = "Gun"
+        Name = "súng chà bặc"
     })
     local   Kabucha =            W:AddLabel("❌ : Kabucha")
     local   AcidumRifle =             W:AddLabel("❌ : Acidum Rifle")
@@ -2777,7 +2777,7 @@ M:AddParagraph("Select Weapon","Please Select Weapon")
 local WeaponList = {"Melee","Sword","Fruit","Gun"}
 _G.SelectWeapon = "Melee"
 M:AddDropdown({
-    Name = "Chọn vũ khí",
+    Name = "Chọn đồ thủ dâm",
     Default = "",
     Options = WeaponList,
     Flag = "Select Weapon",
@@ -2939,7 +2939,7 @@ end
 M:AddParagraph("Main Farm","")
 
 ToggleFarm = M:AddToggle({
-    Name = "Cày cấp",
+    Name = "fam sex",
     Default = false,
     Flag = "LevelFarm",
     Save = true,
@@ -2973,7 +2973,7 @@ end)
 
 
 M:AddToggle({
-    Name = "đến đảo kitsune",
+    Name = "đến đảo kid lỏ",
     Default = false,
     Flag = "KitsuneIslandTween",
     Save = true,
@@ -3080,7 +3080,7 @@ end
 M:AddParagraph("Sea Event","")
 
 M:AddToggle({
-    Name = "Đánh TerrorShark",
+    Name = "Đánh boss cá chà bặc",
     Default = false,
     Flag = "Terrorshark",
     Save = true,
@@ -3091,7 +3091,7 @@ M:AddToggle({
 })
 
 M:AddToggle({
-    Name = "Đánh Shark",
+    Name = "Đánh cá nhỏ",
     Default = false,
     Flag = "Shark",
     Save = true,
@@ -3274,13 +3274,13 @@ end)
 
 
 local Section = M:AddSection({
-    Name = "Mastery Menu"
+    Name = "thông thạo Menu"
 })
 
 M:AddParagraph("Mastery Menu","")
 
 M:AddToggle({
-    Name = "Cày Thông thạo Trái",
+    Name = "Cày Thông thạo trái",
     Default = false,
     Flag = "Mastery",
     Save = true,
@@ -3294,7 +3294,7 @@ M:AddToggle({
 })
 
 M:AddToggle({
-    Name = "Cày Thông thạo Súng",
+    Name = "Cày Thông thạo Súng chà bặc",
     Default = false,
     Flag = "Gun Mastery",
     Save = true,
@@ -3380,7 +3380,7 @@ M:AddToggle({
     })
 
 M:AddToggle({
-    Name = "gom quái",
+    Name = "gom fam cuồng",
     Default = true,
     Flag = "Bring Mobs",
     Save = false,
@@ -3422,7 +3422,7 @@ local Section = M:AddSection({
 })
 
 M:AddToggle({
-    Name = "Đánh Nhanh",
+    Name = "đụ Nhau",
     Default = true,
     Flag = "FastAttack",
     Save = false,
@@ -3470,7 +3470,7 @@ local Section = M:AddSection({
 })
 
 M:AddToggle({
-    Name = "Di Chuyển = Reset",
+    Name = "Di Chuyển = bị đụ",
     Default = false,
     Flag = "Bypass TP",
     Save = true,
@@ -3506,7 +3506,7 @@ local Section = M:AddSection({
 })
 
 Farmfasttoggle = M:AddToggle({
-    Name = "Cày Nhanh",
+    Name = "Cày phim sex nhanh",
     Default = false,
     Flag = "Farm Fast",
     Save = true,
@@ -3567,7 +3567,7 @@ end)
 
 if World1 then
     M:AddDropdown({
-        Name = "Chọn quái",
+        Name = "Chọn quái để đụ",
         Default = "",
         Options = {"Bandit","Monkey","Gorilla","Pirate","Brute","Desert Bandit","Desert Officer","Snow Bandit","Snowman","Chief Petty Officer","Sky Bandit","Dark Master","Prisoner", "Dangerous Prisoner","Toga Warrior","Gladiator","Military Soldier","Military Spy","Fishman Warrior","Fishman Commando","God's Guard","Shanda","Royal Squad","Royal Soldier","Galley Pirate ","Galley Captain"},
         Callback = function(Value)
@@ -3578,7 +3578,7 @@ if World1 then
     
     if World2 then
     M:AddDropdown({
-        Name = "Chọn quái",
+        Name = "Chọn quái để địt",
         Default = "",
         Options = {"Raider","Mercenary","Swan Pirate","Factory Staff","Marine Lieutenant","Marine Captain","Zombie","Vampire","Snow Trooper","Winter Warrior","Lab Subordinate","Horned Warrior","Magma Ninja","Lava Pirate","Ship Deckhand","Ship Engineer","Ship Steward","Ship Officer","Arctic Warrior","Snow Lurker","Sea Soldier","Water Fighter"},
         Callback = function(Value)
@@ -3589,7 +3589,7 @@ if World1 then
     
     if World3 then
     M:AddDropdown({
-        Name = "Chọn quái",
+        Name = "Chọn quái để quay sex",
         Default = "",
         Options = {"Pirate Millionaire","Dragon Crew Warrior","Dragon Crew Archer","Female Islander","Giant Islander","Marine Commodore","Marine Rear Admiral","Fishman Raider","Fishman Captain","Forest Pirate","Mythological Pirate","Jungle Pirate","Musketeer Pirate","Reborn Skeleton","Living Zombie","Demonic Soul","Posessed Mummy", "Peanut Scout", "Peanut President", "Ice Cream Chef", "Ice Cream Commander", "Cookie Crafter", "Cake Guard", "Baking Staff", "Head Baker", "Cocoa Warrior", "Chocolate Bar Battler", "Sweet Thief", "Candy Rebel", "Candy Pirate", "Snow Demon"},
         Callback = function(Value)
@@ -3626,7 +3626,7 @@ M:AddToggle({
     })
 
 TweenChest = M:AddToggle({
-        Name = "Nhặt rương",
+        Name = "Nhặt rươn",
         Default = false,
         Flag = "Tự động Chest",
         Save = true,
@@ -3637,7 +3637,7 @@ TweenChest = M:AddToggle({
     })
 
     M:AddToggle({
-        Name = "Nhặt rương nhanh",
+        Name = "Nhặt rương tìm loli nhanh",
         Default = false,
         Flag = "Tự động Chest[Bypass]",
         Save = true,
@@ -3647,7 +3647,7 @@ TweenChest = M:AddToggle({
     })
 
 M:AddToggle({
-    Name = "dừng khi có cup hoặc key",
+    Name = "dừng khi có cu hoặc key râu chà bặc",
     Default = false,
     Flag = "Stop Only Dark Key or God's Chalice",
     Save = true,
@@ -3682,7 +3682,7 @@ spawn(function()
 end)
 
 ToggleBone = M:AddToggle({
-    Name = "Cày xương",
+    Name = "Cày xương loli",
     Default = false,
     Flag = "Tự động Farm Bone",
     Save = true,
@@ -3693,7 +3693,7 @@ ToggleBone = M:AddToggle({
 })
         
 ToggleRandom = M:AddToggle({
-        Name = "đổi xương",
+        Name = "đổi xương loli",
         Default = false,
         Flag = "Tự động Random Bone",
         Save = true,
@@ -3702,7 +3702,7 @@ ToggleRandom = M:AddToggle({
         end    
     })
     spawn(function()
-        pcall(function()
+      loliall(function()
             while wait(.1) do
                 if _G.Auto_Random_Bone then    
                     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Buy",1,1)
@@ -3726,7 +3726,7 @@ local EliteProgress = M:AddLabel("")
     end)
 
     M:AddToggle({
-        Name = "Đánh Boss Bí Ẩn",
+        Name = "địt boss bí ẩn",
         Default = false,
         Flag = "Tự động Elite",
         Save = true,
@@ -3764,7 +3764,7 @@ local EliteProgress = M:AddLabel("")
         
 
         M:AddToggle({
-            Name = "Cày Katakuri",
+            Name = "Cày Katakuri cu chà bặc",
             Default = false,
             Flag = "Tự động Katakuri",
             Save = true,
@@ -3783,7 +3783,7 @@ local EliteProgress = M:AddLabel("")
         })
         
         M:AddToggle({
-            Name = "Cày Katakuri v2",
+            Name = "đụ Katakuri v2",
             Default = false,
             Flag = "Tự động Katakuri v2",
             Save = true,
@@ -3827,7 +3827,7 @@ end
 
 
 M:AddDropdown({
-    Name = "Chọn Boss",
+    Name = "Chọn loli để đụ",
     Default = "",
     Options = tableBoss,
     Flag = "Select Boss",
@@ -3840,7 +3840,7 @@ M:AddDropdown({
 
 
 M:AddToggle({
-    Name = "Đánh Boss",
+    Name = "đụ loli",
     Default = false,
     Flag = "Tự động Farm Boss",
     Save = true,
@@ -3884,7 +3884,7 @@ end)
 
 
 M:AddToggle({
-    Name = "Đánh hết Boss",
+    Name = "đụ hết loli",
     Default = false,
     Flag = "Tự động Farm All Boss",
     Save = true,
@@ -3929,7 +3929,7 @@ end)
     })
 
     M:AddToggle({
-        Name = "Cày Điểm Haki Quan Sát",
+        Name = "Điểm Haki Quan Sát",
         Default = false,
         Flag = "Tự động Farm Observation Haki",
         Save = true,
@@ -3975,7 +3975,7 @@ end)
     })
 
  M:AddToggle({
-        Name = "Tự động Electric Claw",
+        Name = "Tự động è lích chích",
         Default = false,
         Flag = "Tự động Electric Claw",
         Save = true,
@@ -4041,7 +4041,7 @@ end)
     })
 
     ST:AddToggle({
-        Name = "Màn hình treo",
+        Name = "Màn hình treo cho mấy đứa đg choie thì sục",
         Default = false,
         Flag = "White screen",
         Save = true,
@@ -4314,7 +4314,7 @@ local Section = IQ:AddSection({
 })
 
 IQ:AddToggle({
-    Name = "Tự động Dual Curset Katana",
+    Name = "Tự động lấy xong đao đầu buồi",
     Default = false,
     Flag = "Tự động DualCursetKatana",
     Save = true,
@@ -4658,7 +4658,7 @@ local Fruit = S:AddLabel("Fruit : ")
     end)
 
 S:AddToggle({
-    Name = "Tự động Nâng",
+    Name = "Tự động Nâng điểm sex",
     Default = false,
     Flag = "Tự động Kaitun",
     Save = true,
@@ -4678,7 +4678,7 @@ S:AddToggle({
 })
 
 S:AddToggle({
-    Name = "Máu",
+    Name = "Máu lồn",
     Default = false,
     Flag = "Tự động Defense",
     Save = true,
@@ -4688,22 +4688,7 @@ S:AddToggle({
 })
 
 S:AddToggle({
-    Name = "Kiếm",
-    Default = false,
-    Flag = "Tự động Sword",
-    Save = true,
-    Callback = function(Value)
-        sword = Value
-    end    
-})
-
-S:AddToggle({
-    Name = "mua ku",
-    Default = false,
-    Flag = "Tự động Gun",
-    Save = true,
-    Callback = function(Value)
-        gun = Value
+    Name = "kiếm",       gun = Value
     end    
 })
 
@@ -4738,7 +4723,7 @@ local Section = E:AddSection({
 })
 
 E:AddToggle({
-    Name = "ESP mấy thg đần",
+    Name = "ESP loli",
     Default = false,
     Flag = "ESP Players",
     Save = true,
@@ -4861,7 +4846,7 @@ spawn(function()
 end)
 
 E:AddToggle({
-    Name = "ESP Đảo",
+    Name = "ESP Đảo nhốt loli",
     Default = false,
     Flag = "ESP Island",
     Save = true,
